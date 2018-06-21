@@ -1,0 +1,52 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@color/colorBackground"
+        tools:context="com.EscolhaSustentavel.pi.fragments.FragHome">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonCustom"
+            android:text="Pesquisar Produtos" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonCustom"
+            android:text="Favoritos" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonCustom"
+            android:text="Informaçoes Sustentaveis" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonCustom"
+            android:text="Sobre" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            style="@style/ButtonCustom"
+            android:layout_height="wrap_content"
+            android:text="Ajuda" />
+
+    </LinearLayout>
+
+
+

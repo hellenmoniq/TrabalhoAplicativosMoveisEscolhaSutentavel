@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "888917340062",
+    "project_id": "logingmail-168412"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888917340062:android:567b70fd217c6c34",
+        "android_client_info": {
+          "package_name": "com.EscolhaSustentavel.pi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888917340062-acusqa6hevjjvhqglatd26rgqatsibt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.EscolhaSustentavel.pi",
+            "certificate_hash": "4da9448e66f2d52f7064f8eb962eb33406396efd"
+          }
+        },
+        {
+          "client_id": "888917340062-guip01vope9t238sdugin342nt8rtru4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEmGJL1Ld1VowPsg_kXrnVVocyV4XvxZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.EscolhaSustentavel.pi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- EXTERNAL_STORAGE permissions are optional for Android 6.0 onwards. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EscolhaSustentavel"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBrRyjhpChcTWCKAKpfVmBzmuI_26ezMaw" />
+
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CadastroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AltereSenha"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShowFavorites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AlterarConta"
+            android:label="@string/title_activity_alterar_conta"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.ExcluirConta"
+            android:label="@string/title_activity_excluir_conta"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.SearchProductActivity" />
+        <activity
+            android:name=".activities.InformationActivity"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.DetailProductActivity"
+            android:label="@string/title_activity_detail_product"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.EscolherComparacao"
+            android:label="@string/title_activity_escolher_comparacao"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.Quiz"
+            android:label="@string/title_activity_quiz"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.QResponde"
+            android:label="@string/title_activity_qresponde"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.RespotaActivity"
+            android:label="@string/title_activity_respota"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

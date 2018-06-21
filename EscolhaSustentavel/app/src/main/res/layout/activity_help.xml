@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.EscolhaSustentavel.pi.activities.AboutActivity">
+    <include layout="@layout/toolbar" />
+
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewLoginLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="80dp"
+        android:text="Para utilização no aplicativo Escolha Sustentável, depois de ter realizado o cadastro e efetuado o login, você terá acesso à 4 opções.\n
+ • Pesquisar produto: Esta opção permite que você pesquise um determinado produto de acordo com sua categoria, depois de escolher um, você poderá favorita lo para uma pesquisa posterior e poderá fazer uma comparação dele com outro produto de uma categoria diferente clicando no botão “Comparar”, também poderá visualizar onde pose ser encontrado este determinado produto clicando em “Disponibilidade”.\n
+ •	Favoritos: Esta opção permite que você visualize os produtos que foram favoritados por você.\n
+ •	Informações Sustentáveis: Esta opção traz informações à respeito da coleta seletiva com intuito de ensinar ao usuário qual lixeira utilizar para cada tipo lixo.\n
+ •	Sobre: Esta opção traz informações à respeito do aplicativo Escolha Sustentável./n
+ No menu deslizante poderá ser alterada a senha de acesso e fazer logout da aplicação."
+        android:textSize="14.5dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

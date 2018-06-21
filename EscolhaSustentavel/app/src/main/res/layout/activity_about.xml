@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.EscolhaSustentavel.pi.activities.AboutActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewLoginLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="80dp"
+        android:text="Visando o desenvolvimento econômico sem comprometer o meio ambiente, este software auxiliará as pessoas a adquirirem produtos sustentáveis.\n\n Antes de comprar algum produto, o usuário poderá utilizar o “Escolha Sustentável” para fazer comparações de produtos com materiais diferentes. O software fará a comparação de um determinado produto com categorias diferentes listando para o usuário do que cada produto é feito, seu impacto no meio ambiente, tempo em que levará para se decompor na natureza.\n\n A partir desta comparação, o usuário poderá optar em adquirir um produto mais sustentável, assim ele estará contribuindo para o bem e a saúde do meio ambiente."
+        android:textSize="17dp" />
+
+
+</android.support.constraint.ConstraintLayout>
